@@ -4,7 +4,7 @@ Part I-II (collision-time ratio, Layer B): Collision Time -- FULL-ODE approximat
 LAYER B (numerical observation). This computes the FULL backward-flow
 collision-time ratio eta = tau_ODE / (h0^2/2) using nearby on-line zeros.
 The ratio is approximately stable, eta ~ 0.46 with per-gap CV ~ 2.7%
-across the tested gaps -- NOT an approximately stable ratio.
+across the tested gaps -- an approximately stable ratio (NOT a universal constant).
 
 IMPORTANT: This Layer-B full-ODE eta is DISTINCT from, and NOT used by, the
 frozen-field bound tau*(T0)=0.229 (v16).  That bound (Layer A) uses the rigorous
